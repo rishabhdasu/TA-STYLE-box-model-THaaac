@@ -71,11 +71,14 @@ h2
 {
     margin: 10px;
     font-size: 20px;
+    text-align: center;
 }
 
 p
 {
-    margin-bottom: 30px;
+    margin: 30px auto;
+    text-align: center;
+    
 }
 
 .margin
@@ -148,23 +151,18 @@ p
    
 }
 
-.Exercise2
-{
-    text-align: center;
-    
-}
 .parent
 {
     border: 1px solid black;
-    display: inline-block;
-    margin: 20px;
-    padding: 1px;
+    margin: 24px auto;
     width: 600px;
-    box-sizing: border-box;
     
-    
-}
+  }
+.line
+{
+   font-size: 0;
 
+}
 
 
 .children
@@ -173,9 +171,9 @@ p
     width: 180px;
     height: 100px;
     margin: 10px;
-    
     display: inline-block;
     box-sizing: border-box;
+    
     
 }
 .border
