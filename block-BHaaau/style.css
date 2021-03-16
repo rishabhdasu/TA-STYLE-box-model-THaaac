@@ -86,17 +86,17 @@ p
 }
 .padding
 {
-    background-color: black;
+    background-color: #afeeee;
     display: inline-block;
     padding: 10px;
-    border: 10px solid yellow;
-    margin: 10px;
+    border: 10px solid black;
+    margin: 20px;
     
 }
 
 .content
 {
-    background-color: white;
+    background-color: darkseagreen;
     width: 200px;
     height: 200px;
     display: inline-block;
@@ -111,9 +111,9 @@ p
     
 }
 
-.grey
+.green
 {
-    background-color: grey;
+    background-color: darkseagreen;
     display: inline-block;
     border-radius: 50%;
     width: 10px;
@@ -122,7 +122,7 @@ p
 }
 .blue
 {
-    background-color: black;
+    background-color: #afeeee;
     display: inline-block;
     border-radius: 50%;
     width: 10px;
@@ -131,7 +131,7 @@ p
 }
 .black
 {
-    background-color: yellow;
+    background-color: black;
     display: inline-block;
     border-radius: 50%;
     width: 10px;
