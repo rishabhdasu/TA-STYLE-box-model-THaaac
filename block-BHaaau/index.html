@@ -1,15 +1,64 @@
-<!---
-### Create a page according to the layout shown below
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Box Model, Box-sizing & Box-shadow</title>
+        <meta charset="UTF-8"> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>The Box Model, Box-sizing & Box-shadow</h1>
+        </header>
+        <main>
+            <section class="Exercise1">
+                <h2>Exercise1</h2>
+                <div class="margin">
+                    <div class="padding">
+                        <div class="content"></div>
+                    </div>
+                </div>
+            
+                <div class="row">
 
-![Box Model Exercise 6](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/box-model/ex-6.png)
+                    <div class="column">
+                       <div class="grey"> </div> <span>Content</span>
+                       <div class="blue"></div> <span>Content</span>
+                       <div class="black"></div> <span>Content</span>
+                       <div class="crimson"></div> <span>Content</span>
+                    </div>
 
-#### Problems for exercise 2 in the layout
+                </div>
+            </section>
+            <hr>
+            <section class="Exercise2">
+                <h2>Exercise2</h2>
+                <p>no border on these boxes.</p>
+                <div class="parent">
+                    <div class="children"></div>
+                    <div class="children"></div>
+                    <div class="children"></div>
+                    
+                </div>
+                <hr>
+                <p>border on these boxes.</p>
+                <div class="parent">
+                    
+                        <div class="children border"></div>
+                        <div class="children border"></div>
+                    
+                    <div class="children border"></div>
+                </div>
+                <hr>
+                <p>border on these boxes but they are in same line.</p>
+                <div class="parent">
+                    <div class="children border"></div>
+                    <div class="children border"></div>
+                    <div class="children border"></div>
+                    
+                </div>
+            </section>
+            <div class="check"></div>
+        </main>
+    </body>
 
-- Each parent container has width of 600px and border of 1px;
-- Each children box has width 180px and height 100px as well as margin of 10px;
-- Each child box which is having border has border-width 1px.
-- Note in the first container the boxes do not have any border.
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper.
---->
+</html>
